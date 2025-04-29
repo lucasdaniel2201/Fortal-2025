@@ -50,35 +50,49 @@ nav {
 .primeiro-titulo {
         display: flex;
         justify-content: center;
-        margin-bottom: 30px;
-        margin-top: 50px;
-        padding-top: 20px;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        padding-top: 2rem;
 }
 .secao-titulo{
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    padding-top: 20px;
+    margin-bottom: 3rem;    
+    margin-top: 3rem;
+    padding-top: 2rem;
     border-top: 1px solid #000000;
 }
-.img-sobre {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-}
+
 .sobre-info {
+    width: 100%;
+    height: 60vh;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    background-image: url(images/about.jpg);
+    background-position: center;
+    color: #FFFFFF;
+    justify-content: left;
+}
+.sobre-info{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 60vh;
+    margin-top: 5rem;
+    border-radius: 10px;
+
 }
 .sobre-info p{
-    width: 100%;
-    height: auto;
-    line-height: 25px;
-    display: flex;
-    align-items:first baseline;
-    font-size: 18px;
+    width: 50%;
+    font-weight: 600;
+    font-size: 1.8vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    font-family: Montserrat;
+    background-color: rgba(100, 100, 100, 0.3);
+    backdrop-filter: blur(2px);
+    padding: 2rem;
+    border-radius: 20px;
+    margin-left: 5rem;
 }
 
 .img-programacao {
