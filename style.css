@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f8f9fa;
+}
+main {
+    width: 70vw;
+    flex: 1;
+    padding: 20px;
+}
+header {
+    width: 100%;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+}
+nav {
+    display: flex;
+}
+.logo {
+    width: 20vw;
+    display: flex;
+    justify-content: left;
+}
+.titulo {
+    width: 50vw;
+    display: flex;
+    justify-content: left;
+}
+.titulo h1 {
+    font-size: 17px;
+    margin-left: 50px;
+}
+.logo img {
+    width: 10em;
+    height: 5em;
+}
+.primeiro-titulo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        padding-top: 20px;
+}
+.secao-titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #000000;
+}
+.img-sobre {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.sobre-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sobre-info p{
+    width: 100%;
+    height: auto;
+    line-height: 25px;
+    display: flex;
+    align-items:first baseline;
+    font-size: 18px;
+}
+
+.img-programacao {
+    width: 20em;
+    height: 30em;
+    border-radius: 20px;
+}
+.programacao-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px
+}
+.programacao-info p {
+    margin-left: 60px;
+}
+#formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.espaco-div {
+    margin-right: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+}
